@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+
+*{
+    margin:0;
+}
+
+/* section 1 */
+.navbar .navbar-brand{
+    font-weight:bold;
+}
+
+
+.navbar .navbar-collapse .nav-item{
+    font-size:12px;
+    font-weight: bold;
+    margin:3px 3px 3px 3px;
+}
+
+/* end section 1 */
+
+/* start section 2 */
+.section-2{
+    margin-top:23px;
+}
+
+.section-2 .row p{
+    margin-left: 12px;
+}
+
+/* end section 2  */
+
+
+/* start section 3 */
+
+.section-3{
+    margin-top: 7px;
+    margin-left: 0;
+    position: sticky;
+    width: 100%;
+    z-index:5;
+    top:0;
+}
+
+.section-3 .row{
+    height:3rem;
+}
+
+.section-3 .row .col-md-12{
+    background:black;
+    padding: 12px;
+}
+
+.section-3 .row .col-md-12 a{
+    color:white;
+    padding: 12px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.section-3 .row .col-md-12 a:hover{
+    border-bottom:1px solid skyblue;
+    border-width: 4px;
+}
+/* end section 3 */
+
+
+/* start section-4 */
+
+.section-4{
+    margin-top: 7px;
+}
+
+.section-4 .row .col-md-12 img{
+    width:100%;
+}
+
+/* end section 4 */
+
+/* start section-5 */
+
+.section-5{
+    margin-bottom: 12px;
+}
+
+.section-5 .row .col-md-6 img{
+    width:35rem;
+}
+
+.section-5 .row .col-md-6 h1{
+    font-weight: bold;
+    margin-top:45px;
+}
+
+.section-5 .row .col-md-6 p,h3{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 23px;
+}
+
+.section-5 .row .col-md-6 .btn-group .btn{
+    width:550px;
+    height:65px;
+    border-radius: none;
+    background:white;
+    border:2px solid grey;
+    font-size: large;
+    margin-top: 0.2em;
+    color:black;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+.section-5 .row .col-md-6 .btn-group .dropdown-menu{
+    background:#1e1d1d;
+    padding: 10px;
+}
+
+.section-5 .row .col-md-6 .btn-group .dropdown-menu button{
+    width:530px;
+    height:65px;
+    background:#1e1d1d;
+    border:none;
+    border-bottom: 1px solid white;
+    color:white;
+    text-align: left;
+}
+
+.section-5 .row .col-md-6 .btn-group .dropdown-menu button:last-child{
+    border-bottom: none;
+}
+
+.section-5 .row .col-md-6 .btn-group .dropdown-menu button:hover{
+    background-color:rgba(30,29,29,0.6);
+}
+
+.section-5 .row .col-md-6 .but{
+    margin-top:45px;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius:20px;
+    background:#0e1d72;
+    color:white;
+    font-size:10px;
+    letter-spacing: 0.2em;
+    border:none;
+}
+
+.section-5 .row .col-md-6 a{
+    font-family:  'Noto Sans TC', sans-serif;
+    margin: 0 0 0 13px;
+    color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+
+/* end section 5 */
+
+
+/* section 6 */
+
+.section-6{
+    margin-top:53px;
+    margin-bottom: 12px;
+}
+
+.section-6 .row .col-md-6 img{
+    width:37rem;
+}
+
+.section-6 .row .col-md-6 h1{
+    font-weight: bold;
+    margin-top: 43px;
+}
+
+.section-6 .row .col-md-6 p,h3{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 23px;
+}
+
+.section-6 .row .col-md-6 .btn-group .btn{
+    width:550px;
+    height:65px;
+    border-radius: none;
+    background:white;
+    border:2px solid grey;
+    font-size: large;
+    margin-top: 0.2em;
+    color:black;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+.section-6 .row .col-md-6 .btn-group .dropdown-menu{
+    background:#1e1d1d;
+    padding: 10px;
+}
+
+.section-6 .row .col-md-6 .btn-group .dropdown-menu button{
+    width:530px;
+    height:65px;
+    background:#1e1d1d;
+    border:none;
+    border-bottom: 1px solid white;
+    color:white;
+    text-align: left;
+}
+
+.section-6 .row .col-md-6 .btn-group .dropdown-menu button:last-child{
+    border-bottom: none;
+}
+
+.section-6 .row .col-md-6 .btn-group .dropdown-menu button:hover{
+    background-color:rgba(30,29,29,0.6);
+}
+
+.section-6 .row .col-md-6 .but{
+    margin-top:45px;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius:20px;
+    background:#0e1d72;
+    color:white;
+    font-size:10px;
+    letter-spacing: 0.2em;
+    border:none;
+}
+
+.section-6 .row .col-md-6 a{
+    font-family:  'Noto Sans TC', sans-serif;
+    margin: 0 0 0 13px;
+    color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+
+/* end section 6 */
+
+
+
+
+/* section 7 */
+
+.section-7{
+    margin-top:53px;
+    margin-bottom: 12px;
+}
+
+.section-7 .row .col-md-6 img{
+    width:37rem;
+}
+
+.section-7 .row .col-md-6 h1{
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.section-7 .row .col-md-6 p,h3{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 23px;
+}
+
+.section-7 .row .col-md-6 .btn-group .btn{
+    width:550px;
+    height:65px;
+    border-radius: none;
+    background:white;
+    border:2px solid grey;
+    font-size: large;
+    margin-top: 0.2em;
+    color:black;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+.section-7 .row .col-md-6 .btn-group .dropdown-menu{
+    background:#1e1d1d;
+    padding: 10px;
+}
+
+.section-7 .row .col-md-6 .btn-group .dropdown-menu button{
+    width:530px;
+    height:65px;
+    background:#1e1d1d;
+    border:none;
+    border-bottom: 1px solid white;
+    color:white;
+    text-align: left;
+}
+
+.section-7 .row .col-md-6 .btn-group .dropdown-menu button:last-child{
+    border-bottom: none;
+}
+
+.section-7 .row .col-md-6 .btn-group .dropdown-menu button:hover{
+    background-color:rgba(30,29,29,0.6);
+}
+
+.section-7 .row .col-md-6 .but{
+    margin-top:45px;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius:20px;
+    background:#0e1d72;
+    color:white;
+    font-size:10px;
+    letter-spacing: 0.2em;
+    border:none;
+}
+
+.section-7 .row .col-md-6 a{
+    font-family:  'Noto Sans TC', sans-serif;
+    margin: 0 0 0 13px;
+    color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+/* end section 7*/
+
+
+
+/* start section 8 */
+
+.section-8{
+    margin-top:53px;
+    margin-bottom: 12px;
+}
+
+.section-8 .row .col-md-6 img{
+    width:37rem;
+}
+
+.section-8 .row .col-md-6 h1{
+    font-weight: bold;
+    margin-top: 43px;
+}
+
+.section-8 .row .col-md-6 p,h3{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 23px;
+}
+
+.section-8 .row .col-md-6 .btn-group .btn{
+    width:550px;
+    height:65px;
+    border-radius: none;
+    background:white;
+    border:2px solid grey;
+    font-size: large;
+    margin-top: 0.2em;
+    color:black;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+.section-8 .row .col-md-6 .btn-group .dropdown-menu{
+    background:#1e1d1d;
+    padding: 10px;
+}
+
+.section-8 .row .col-md-6 .btn-group .dropdown-menu button{
+    width:530px;
+    height:65px;
+    background:#1e1d1d;
+    border:none;
+    border-bottom: 1px solid white;
+    color:white;
+    text-align: left;
+}
+
+.section-8 .row .col-md-6 .btn-group .dropdown-menu button:last-child{
+    border-bottom: none;
+}
+
+.section-8 .row .col-md-6 .btn-group .dropdown-menu button:hover{
+    background-color:rgba(30,29,29,0.6);
+}
+
+.section-8 .row .col-md-6 .but{
+    margin-top:45px;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius:20px;
+    background:#0e1d72;
+    color:white;
+    font-size:10px;
+    letter-spacing: 0.2em;
+    border:none;
+}
+
+.section-8 .row .col-md-6 a{
+    font-family:  'Noto Sans TC', sans-serif;
+    margin: 0 0 0 13px;
+    color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+/* end section 8 */
+
+
+
+/* start section 9 */
+
+.section-9{
+    margin-top:53px;
+    margin-bottom: 12px;
+}
+
+.section-9 .row .col-md-6 img{
+    width:37rem;
+}
+
+.section-9 .row .col-md-6 h1{
+    font-weight: bold;
+    margin-top: 43px;
+}
+
+.section-9 .row .col-md-6 p,h3{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 23px;
+}
+
+.section-9 .row .col-md-6 .btn-group .btn{
+    width:550px;
+    height:65px;
+    border-radius: none;
+    background:white;
+    border:2px solid grey;
+    font-size: large;
+    margin-top: 0.2em;
+    color:black;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+.section-9 .row .col-md-6 .btn-group .dropdown-menu{
+    background:#1e1d1d;
+    padding: 10px;
+}
+
+.section-9 .row .col-md-6 .btn-group .dropdown-menu button{
+    width:530px;
+    height:65px;
+    background:#1e1d1d;
+    border:none;
+    border-bottom: 1px solid white;
+    color:white;
+    text-align: left;
+}
+
+.section-9 .row .col-md-6 .btn-group .dropdown-menu button:last-child{
+    border-bottom: none;
+}
+
+.section-9 .row .col-md-6 .btn-group .dropdown-menu button:hover{
+    background-color:rgba(30,29,29,0.6);
+}
+
+
+.section-9 .row .col-md-6 a{
+    font-family:  'Noto Sans TC', sans-serif;
+    margin: 0 0 0 13px;
+    color:black;
+    letter-spacing: 2px;
+    font-size:15px;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+/* end section 9 */
+
+
+
+/* start section 10 */
+.section-10{
+    margin-top: 50px;
+}
+
+.section-10 .row .col-md-6 .text-left{
+    padding: 220px 0 0 120px;
+    text-align: center;
+}
+
+.section-10 .row .col-md-6 .text-left h1{
+    font-weight: BOLD;
+    text-transform: capitalize;
+    font-size: 64px;
+}
+
+.section-10 .row .col-md-6 .text-left p{
+    margin-top: 33px;
+    margin-bottom: 20px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.section-10 .row .col-md-6 .text-left a{
+    color:black;
+    border-bottom:1px solid black;
+}
+/* end section 10 */
+
+
+/* section 11 start*/
+.section-11{
+    margin:12px 0 0 0;
+    text-align: center;
+}
+
+.section-11 h1{
+    font-weight: bold;
+    font-size: 58px;
+    color:#000000;
+}
+
+.section-11 h3{
+    margin: 43px;
+    color:#000000;
+}
+/* section 11 end */
+
+
+/* section 12 start */
+.section-12{
+    margin: 12px 0 0 0;
+}
+
+.section-12 .row .col-md-6 h1,p,a{
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.section-12 .row .col-md-6 h1{
+    font-size:16px;
+}
+
+.section-12 .row .col-md-6 a{
+    color:#000000;
+    border-bottom: 1px solid black;
+}
+/* section 12 end */
+
+
+/* section-13 start */
+
+.section-13{
+    margin-top:105px;
+    text-align: center;
+}
+
+.section-13 .row .col-md-12 h1 , h3 , button{
+    margin-top:12px;
+    margin-bottom: 12px;
+}
+
+.section-13 .row .col-md-12 h1{
+    font-weight:bold;
+    font-size: 46px;
+}
+
+.section-13 .row .col-md-12 h3{
+    font-family:'Montserrat', sans-serif;
+}
+
+.section-13 .row .col-md-12 button{
+    border:1px solid grey;
+    border-radius:30px;
+    padding: 22px 42px;
+    background:white;
+}
+
+.section-13 .row .col-md-12 img{
+    width:80rem;
+}
+
+/* section-13 end */
+
+/* section 14 start */
+
+.section-14{
+    margin: 12px 0 0 0;
+}
+.section-14 .row{
+    margin: auto;
+}
+
+.section-14 .row .textSection14 h1{
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.section-14 .row .textSection14 p{
+    font-family:'Montserrat', sans-serif;
+    margin-top: 25px;
+}
+
+.section-14 .row .textSection14 a{
+    color:#000000;
+    margin-right: 15px;
+    border-bottom:1px solid black;
+    text-decoration: none;
+}
+
+.section-14 .row .textSection14 a:hover{
+    color:skyblue;
+    border:skyblue;
+}
+
+.section-14 .row .textSection14 button{
+    border:1px solid black;
+    border-radius:27px;
+    padding: 12px 12px;
+    background:white;
+    width:200px;
+}
+
+.section-14 .row .textSection14 button:hover{
+    color:white;
+    background:black;
+}
+
+.section-14 .row .col-md-6 img{
+    width:130rem;
+    overflow: hidden;
+    border-radius:10px;
+}
+/* section 14 end  */
+
+
+/* start section 15 */
+
+.section-15{
+    margin: 190px 0 0 0;
+}
+
+.section-15 .row .col-md-6 .TextSection15{
+    margin-left: 220px;
+    margin-top:150px;
+    width:400px;
+}
+
+.section-15 .row .col-md-6 .TextSection15 h1{
+    font-weight:bold;
+    color:#000000;
+    font-size:45px;
+}
+
+.section-15 .row .col-md-6 .TextSection15 p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.section-15 .row .col-md-6 .TextSection15 a{
+    color:black;
+    text-decoration: none;
+    border-bottom:1px solid black;
+    margin-right: 15px;
+}
+
+.section-15 .row .col-md-6 .TextSection15 button{
+    width:200px;
+    background:white;
+    border:1px solid black;
+    padding: 12px 12px;
+    border-radius:27px;
+}
+
+.section-15 .row .col-md-6 .TextSection15 button:hover{
+    color:white;
+    background:black;
+}
+
+/* end section-15 */
+
+
+/* section 16 start */
+
+.section-16 {
+    margin-top: 200px;
+}
+
+.section-16 .row .col-md-6 .textSection-16{
+    margin-top: 200px;
+}
+
+.section-16 .row .col-md-6 .textSection-16 h1{
+    font-weight:bold;
+    font-size:49px;
+}
+
+.section-16 .row .col-md-6 .textSection-16 button{
+    padding: 12px 12px ;
+    border:1px solid black;
+    background:white;
+    border-radius:27px;
+}
+
+.section-16 .row .col-md-6 .textSection-16 button:hover{
+    color:white;
+    background:black;
+}
+/* section 16 end  */
+
+
+
+/* section 17 start */
+.section-17{
+    margin-top: 130px;
+}
+
+.section-17 .row .col-md-12{
+    text-align:center;
+}
+
+.section-17 .row .col-md-12 h1{
+    font-size:22px;
+    font-weight:bold;
+    font-size:40px;
+}
+
+
+.section-17 .row .col-md-12 button{
+    padding: 12px 12px;
+    background:white;
+    border:1px solid black;
+    border-radius:20px;
+    width:200px;
+    margin-bottom: 32px;
+}
+
+.section-17 .row .col-md-12 button:hover{
+    color:white;
+    background:black;
+}
+
+/* section 17 end */
